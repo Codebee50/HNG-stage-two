@@ -76,7 +76,7 @@ name -> the new name of the person
 `{
     "id": id,
     "name": name
-}` if the person was updated succesfully
+}` with a status code of 200 if the person was updated succesfully
 
 
 # Delete -> Remove a person
@@ -97,7 +97,7 @@ http://codebee.pythonanyhere.com/api/<id>
 
 `{
     "detail": "name deleted succesfully"
-}` if the person was deleted succesfully
+}` with a status code of 200 if the person was deleted succesfully
 
 
 
