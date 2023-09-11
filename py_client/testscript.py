@@ -34,7 +34,7 @@ def testUpdateEndpoint(person):
 
 
     update_endpoint = domain + f'/api/{str(person_id)}'
-    print(f'Renaming {old_name} to {new_name}')
+    print(f'Renaming {old_name} to {new_name}..')
     data = {
         'name': new_name
     }
