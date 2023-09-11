@@ -1,7 +1,10 @@
+"""The starting point for this file is the testCreateEndPoint"""
+
+
 import requests
 from rest_framework import status
 
-domain = 'http://localhost:8000' #this is the domain where the project is currently hosted or running
+domain = 'http://codebee.pythonanywhere.com' #this is the domain where the project is currently hosted or running
 
 create_endpoint = domain+'/api/'
 
@@ -46,8 +49,6 @@ def testUpdateEndpoint(person):
         print(update_request.json())
 
 
-
-
 def testGetEndpoint(create_request):
     print('Fetching user...')
 
@@ -59,8 +60,6 @@ def testGetEndpoint(create_request):
     if(get_request.status_code == status.HTTP_200_OK): 
         #updating the user who was just created
         testUpdateEndpoint(get_request.json()) 
-
-
 
 
 def testCreateEndpoint():
