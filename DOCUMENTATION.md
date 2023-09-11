@@ -1,7 +1,7 @@
 # Hng stage two task documentation
 
 ## Getting started 
-Request should be made from a valid client such as postman or a python client, to test that all endpoints works you can run the **testscript.py** file located withing the py_client folder using `python testscript.py`, this makes a test call to all the endpoints
+Request should be made from a valid client such as postman or a python client, to test that all endpoints works you can run the **testscript.py** file located within the py_client folder using `python testscript.py`, this makes a test call to all the endpoints, before executing the **testscripts.py** file, please make sure to edit the _domain_ variable within the testscript.py file accordingly if you are testing the endpoints against your localhost
 
 api domain => codebee.pythonanywhere.com
 
