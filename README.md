@@ -27,6 +27,6 @@
     * Your api should now be accesible on `localhost:<port>/api`. For a detailed guide on how to use the endpoints in this project, refer to the **DOCUMENTATION.md** file located within this project 
 
 7. Use test scripts
-    * From your terminal, navigate into the py_client folder this contains a testscript.py file which makes test calls to all the endpoint to ensure proper functionality run the script using `python testscript.py` 
+    * From your terminal, navigate into the py_client folder this contains a _testscript.py_ file which makes test calls to all the api endpoint to ensure proper functionality, the _testscript.py_ is currently configured to make requests to the online endpoint at 'https://codebee.pythonanywhere.com' In the case where you would like to make test calls to localhost, modify the _domain_ variable in testscript.py accordingly. Run the script using `python testscript.py` 
 
 
