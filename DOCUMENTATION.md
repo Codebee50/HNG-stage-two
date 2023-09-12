@@ -1,11 +1,11 @@
 # Hng stage two task documentation
 
 ## Getting started 
-Request should be made from a valid client such as postman or a python client. To test that all endpoints works you can run the **testscript.py** file located within the py_client folder using `python testscript.py`, this makes a test call to all the endpoints. Before executing the **testscripts.py** file, please make sure to edit the _domain_ variable within the testscript.py file accordingly if you are testing the endpoints against your localhost
+All requests should be made from a valid client such as postman or a python client. To test that all endpoints works you can run the **testscript.py** file located within the py_client folder using `python testscript.py`, this makes a test call to all the endpoints. The testscript.py file is currently configured to test the online api endpoint, meanwhile if you want to use it to test the localhost, you can edit the _domain_ variable within testscript.py and set it to the domain of your development server 
 
 online api domain => codebee.pythonanywhere.com
 
-For a step by step guide on how to congigure the api on your local machine, refer to the `README.md` file provided within this project 
+For a step by step guide on how to configure the api on your local machine, refer to the [README.md](/README.md) file provided within this project 
 
 # GET -> Retrieve the details of a person
 
