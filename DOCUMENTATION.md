@@ -10,7 +10,7 @@ For a step by step guide on how to configure the api on your local machine, refe
 # GET -> Retrieve the details of a person
 
 ``````
-http://codebee.pythonanyhere.com/api/<id>
+http://codebee.pythonanywhere.com/api/<id>
  
  ``````
 
