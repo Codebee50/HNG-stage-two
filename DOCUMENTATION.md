@@ -35,9 +35,12 @@ http://codebee.pythonanywhere.com/api/
  ``````
 
 ### Body 
+```json
 {
     'name': 'Kyrian'
 }
+```
+
 
 name -> the name of the person to be added
 
@@ -65,9 +68,13 @@ http://codebee.pythonanywhere.com/api/<id>
  * id -> The id of the person to be updated
 
  ### Body 
- {
+
+ ```json
+  {
     'name': 'Kyrian'
 }
+ ```
+
 
 name -> the new name of the person 
 
