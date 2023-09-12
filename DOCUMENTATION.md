@@ -5,6 +5,8 @@ Request should be made from a valid client such as postman or a python client. T
 
 online api domain => codebee.pythonanywhere.com
 
+For a step by step guide on how to congigure the api on your local machine, refer to the `README.md` file provided within this project 
+
 # GET -> Retrieve the details of a person
 
 ``````
