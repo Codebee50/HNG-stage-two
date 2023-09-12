@@ -37,7 +37,7 @@ http://codebee.pythonanywhere.com/api/
 ### Body 
 ```json
 {
-    'name': 'Kyrian'
+    "name": "Kyrian"
 }
 ```
 
@@ -71,7 +71,7 @@ http://codebee.pythonanywhere.com/api/<id>
 
  ```json
   {
-    'name': 'Kyrian'
+    "name": "Kyrian"
 }
  ```
 
