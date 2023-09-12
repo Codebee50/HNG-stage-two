@@ -1,9 +1,9 @@
 # Hng stage two task documentation
 
 ## Getting started 
-All requests should be made from a valid client such as postman or a python client. To test that all endpoints works you can run the **testscript.py** file located within the py_client folder using `python testscript.py`, this makes a test call to all the endpoints. The testscript.py file is currently configured to test the online api endpoint, meanwhile if you want to use it to test the localhost, you can edit the _domain_ variable within testscript.py and set it to the domain of your development server 
+All requests should be made from a valid client such as postman or a python client. To test that all endpoints works you can run the [testscript.py](/py_client/testscript.py) file located within the py_client folder using `python testscript.py`, this makes a test call to all the endpoints. The [testscript.py](/py_client/testscript.py) file is currently configured to test the online api endpoint, meanwhile if you want to use it to test the localhost, you can edit the _domain_ variable within [testscript.py](/py_client/testscript.py) and set it to the domain of your development server. Before running the testscript.py file ensure that you have the [requests](https://pypi.org/project/requests/) library installed, and your virtual environment activated (if any)
 
-online api domain => codebee.pythonanywhere.com
+online api domain => http://codebee.pythonanywhere.com
 
 For a step by step guide on how to configure the api on your local machine, refer to the [README.md](/README.md) file provided within this project 
 
@@ -35,6 +35,10 @@ http://codebee.pythonanyhere.com/api/
  ``````
 
 ### Body 
+{
+    'name': 'Kyrian'
+}
+
 name -> the name of the person to be added
 
 ### Returns
@@ -49,6 +53,7 @@ name -> the name of the person to be added
     "name": name
 }` with a status code of 201 if the person was created succcesfully
 
+
 # PATCH -> update a person 
 
 ``````
@@ -60,6 +65,10 @@ http://codebee.pythonanyhere.com/api/<id>
  * id -> The id of the person to be updated
 
  ### Body 
+ {
+    'name': 'Kyrian'
+}
+
 name -> the new name of the person 
 
 
@@ -81,7 +90,7 @@ name -> the new name of the person
 }` with a status code of 200 if the person was updated succesfully
 
 
-# Delete -> Remove a person
+# DELETE -> Remove a person
 ``````
 http://codebee.pythonanyhere.com/api/<id>
  
