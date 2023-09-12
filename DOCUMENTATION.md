@@ -30,7 +30,7 @@ http://codebee.pythonanyhere.com/api/<id>
 
 # POST -> Add a person 
 ``````
-http://codebee.pythonanyhere.com/api/
+http://codebee.pythonanywhere.com/api/
  
  ``````
 
@@ -57,7 +57,7 @@ name -> the name of the person to be added
 # PATCH -> update a person 
 
 ``````
-http://codebee.pythonanyhere.com/api/<id>
+http://codebee.pythonanywhere.com/api/<id>
  
  ``````
 
@@ -92,7 +92,7 @@ name -> the new name of the person
 
 # DELETE -> Remove a person
 ``````
-http://codebee.pythonanyhere.com/api/<id>
+http://codebee.pythonanywhere.com/api/<id>
  
  ``````
 
